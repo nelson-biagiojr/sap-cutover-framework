@@ -44,6 +44,8 @@ This framework does not prescribe a universal method. It documents what actually
 | [hypercare-framework.md](hypercare-framework.md) | Post go-live stabilization model: SLA, incident triage, L1/L2/L3 structure |
 | [common-cutover-failures.md](common-cutover-failures.md) | Failure patterns observed across multiple programs — governance, planning, execution, multi-region, and communication |
 | [lessons-learned.md](lessons-learned.md) | What actually changes between the plan and execution, and why most cutover failures originate weeks before the downtime window |
+| [raci-cutover-template.md](raci-cutover-template.md) | Full RACI matrix for cutover execution: pre-cutover through hypercare, including go-live decision, rollback, and multi-region additions |
+| [cutover-communication-templates.md](cutover-communication-templates.md) | 8 ready-to-use templates covering the full communication cycle: system freeze, downtime, war room updates, executive status, go-live declaration, rollback, and hypercare activation |
 | [ai-for-cutover.md](ai-for-cutover.md) | How AI tools can support cutover planning and war room operations |
 | [executive-summary.md](executive-summary.md) | C-level communication model during cutover windows |
 | [about.md](about.md) | Programs that shaped this framework and context behind the content |
