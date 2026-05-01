@@ -1,78 +1,40 @@
-# About
+About
+Who built this
+Nelson Biagio Junior — Technology Program Director, São Paulo, Brazil.
+33 years in enterprise IT. 12+ years leading SAP programs across Brazil, Latin America, the United States, and Europe. Early career at KPMG and PwC in M&A technology integration. Twelve years at IBM Global Business Services, where the client list included the Pentagon, NASA, the Bank of England, and the U.S. Department of Defense.
+The SAP-specific work started in earnest around 2022 and escalated from there.
 
-## Profile
+Programs that shaped this framework
+CBMM — Project 4US (2024)
+Full ECC-to-S/4HANA Brownfield migration at Companhia Brasileira de Metalurgia e Mineração. 225-person delivery organization: 11 project managers, 214 Deloitte consultants, covering FI, CO, MM, SD, QM, PP, PM, SuccessFactors, EWM, and TM. One of the most comprehensive SAP transformation programs running in Brazil at the time.
+At that scale, the challenge is not technical — it's coordination. Keeping 11 parallel workstreams on a single execution model, resolving cross-functional conflicts before they cascade, and maintaining governance visibility across everything simultaneously.
+AB InBev — Project Aurora (2025–present)
+Global S/4HANA upgrade. 14 countries, 8 integrated enterprise systems, zero-tolerance conditions for operational disruption. Currently serving as Cutover and Transition Lead.
+This is where the framework was stress-tested at scale. Managing critical path across multiple time zones, running war room operations during go-live windows, and coordinating data migration readiness alongside cutover execution — all simultaneously, with decisions that had to be right the first time.
+LDC (Louis Dreyfus Company) — Brazil Tax Reform & eSocial (2024–2025)
+84-person cross-functional delivery across SAP SD, FI, and HR. Regulatory programs with hard government deadlines — no extensions, no negotiation. All programs delivered within statutory timelines. Zero regulatory exposure post go-live.
+This engagement added a dimension that purely technical cutover frameworks miss: when compliance is a go-live criterion, the readiness definition changes entirely.
 
-Senior SAP Program Manager with 18+ years of experience leading complex IT programs and over a decade specializing in SAP transformations, including large-scale S/4HANA implementations and upgrades.
+Why this repository exists
+There is no shortage of SAP cutover documentation. SAP's own methodology covers the process. Every SI has a template.
+What most of them don't cover is the gap between the plan and the execution — what changes when the downtime window opens, what decisions have to be made without complete information, and what governance structures actually hold under pressure versus which ones collapse.
+This repository documents what held.
 
-Proven track record in managing high-criticality go-lives, with strong expertise in cutover orchestration, hypercare stabilization, and cross-functional program delivery.
+Areas of focus
 
----
+SAP ECC / S/4HANA — Greenfield and Brownfield
+Cutover planning and execution (multi-country, multi-system)
+Data migration integration with go-live operations
+War room governance and real-time issue management
+Hypercare and transition to steady-state operations
+M&A integration and technology separation
+Regulatory programs (Brazil Tax Reform IBS/CBS, eSocial) applied to SAP
 
-## What I Bring
 
-I specialize in the most critical phase of SAP programs — where execution determines success.
-
-My core contributions include:
-
-- Leading end-to-end cutover execution in complex SAP landscapes  
-- Establishing real-time control during go-live and stabilization  
-- Managing hypercare with structured governance and SLA-driven support  
-- Aligning business and IT to ensure operational continuity  
-
----
-
-## Key Strengths
-
-- SAP S/4HANA Cutover & Go-Live Leadership  
-- Hypercare & Transition to AMS (T2R)  
-- Cross-Functional & Global Team Coordination  
-- Risk, Incident, and Issue Management  
-- Executive Stakeholder Communication  
-
----
-
-## Experience Highlights
-
-- Led SAP S/4HANA upgrade and go-live activities in global environments  
-- Managed multi-country teams across different time zones  
-- Coordinated technical and business streams during high-risk cutover windows  
-- Delivered structured hypercare models with focus on stabilization and performance  
-
----
-
-## How I Work
-
-- Execution-focused: turning plans into controlled delivery  
-- Structured: applying governance, clarity, and accountability  
-- Decisive: enabling fast and informed decision-making under pressure  
-- Business-oriented: ensuring technical delivery supports real operations  
-
----
-
-## Perspective
-
-Cutover is not a milestone — it is a business-critical event.  
-Hypercare is not support — it is where delivery is validated.
-
----
-
-## Availability
-
-Open to discussing opportunities involving:
-
-- SAP S/4HANA Programs  
-- Cutover & Go-Live Leadership  
-- Program Management in complex environments  
-
----
-
-## Contact
-
-📧 Email: nbiagiojunior@gmail.com
-💼 LinkedIn:  https://www.linkedin.com/in/nelson-biagio-junior/
-🌎 Location: São Paulo, Brazil (open to remote/global roles)
-
----
+Contact
+📧 nbiagiojunior@gmail.com
+💼 linkedin.com/in/nelson-biagio-junior
+🌎 São Paulo, Brazil — open to remote and global engagements
 
 ## Final Note
 

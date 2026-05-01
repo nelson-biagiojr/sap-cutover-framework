@@ -6,62 +6,85 @@
 
 [Understand how to use this framework](repository-overview.md)
 
-# SAP Cutover Framework
-
-A structured framework for planning and executing cutover activities in high-criticality SAP S/4HANA programs.
-
-
 ## 🔷 Cutover Execution Flow
 
 ![SAP Cutover Flow](assets/cutover-flow.png)
 
-## 🎯 Objective
+# SAP Cutover Framework
 
-Ensure controlled and risk-mitigated transitions during go-live, preserving business continuity and minimizing operational disruption.
+A framework for planning and executing cutover activities in high-criticality SAP S/4HANA programs.
 
-## 🧩 Core Components
+Built from real war room experience, not from documentation.
 
-- Cutover Planning & Sequencing  
-- War Room Governance Model  
-- Stakeholder Communication Framework  
-- Risk & Contingency Management  
+---
 
-## 🏗️ Context
+## Context
 
-This framework is based on hands-on experience managing complex SAP programs involving multiple systems, cross-functional teams, and global stakeholders.
+Most cutover frameworks are written by people who read about cutovers.
 
-## 📌 Key Differentiators
+This one was built by someone who ran them.
 
-- Execution-driven approach (not theoretical)  
-- Designed for high-risk, large-scale environments  
-- Focus on governance, coordination, and decision-making  
+The content here reflects direct experience leading cutover and go-live operations across programs of different scales and risk profiles: a 225-person ECC-to-S/4HANA migration at CBMM (Companhia Brasileira de Metalurgia e Mineração), coordinating 11 project managers and 214 Deloitte consultants across FI, CO, MM, SD, QM, PP, PM, EWM, and TM — and a global S/4HANA upgrade at AB InBev (Project Aurora), spanning 14 countries, 8 integrated enterprise systems, and zero-tolerance conditions for operational disruption.
 
-## 🚀 Roadmap
+This framework does not prescribe a universal method. It documents what actually works under pressure, where a single unresolved dependency can cascade across regions, and where rollback decisions have to be made in real time with incomplete information.
 
-- Detailed cutover templates  
-- Go-live checklist  
-- Hypercare management model  
+---
 
-## 👤 Author
+## What's in this repository
 
-Senior SAP Project Manager with experience leading critical S/4HANA go-live and transformation programs.
+| File | What it covers |
+|---|---|
+| `cutover-flow.md` | End-to-end execution sequence with phase gates and decision triggers |
+| `cutover-checklist.md` | Go/No-Go criteria, technical and business readiness validation |
+| `war-room-model.md` | Command structure, escalation logic, roles, and real-time issue management |
+| `hypercare-framework.md` | Post go-live stabilization model: SLA, incident triage, L1/L2/L3 structure |
+| `common-cutover-failures.md` | Failure patterns observed across multiple programs — and how they were addressed |
+| `lessons-learned.md` | What changes between the plan and execution, and why |
+| `ai-for-cutover.md` | How AI tools can support cutover planning and war room operations |
+| `executive-summary.md` | C-level communication model during cutover windows |
 
-## 🔗 Repository Structure
+---
 
-- cutover-checklist.md  
-- war-room-model.md  
-- hypercare-framework.md  
-- executive-summary.md  
+## Core principles behind the framework
 
-## 💡 Strategic Perspective
+**Cutover is not a project phase. It is a separate operation.**
 
-This repository reflects real-world SAP program management practices, combining execution discipline with strategic decision-making.
+It has its own command structure, its own decision cadence, and its own definition of success. Programs that treat cutover as the last sprint of the project fail at a rate that should be embarrassing — but rarely is, because the failure mode is slow and the accountability is diffuse.
 
-## 📊 Key Visuals
+**The Go/No-Go decision is not a checklist item. It is a governance moment.**
 
-- Cutover Execution Flow  
-- War Room Command Structure  
-- Incident Management Flow  
-- Decision Flow  
+Every item on a readiness checklist can be green and the program can still fail, because the checklist captured what was visible, not what was real. Good cutover governance means knowing which risks are acceptable and which are not — before the downtime window opens.
 
-These diagrams represent real-world SAP program execution models.
+**War room discipline is the difference between a recoverable incident and a rollback.**
+
+Not the technology. The discipline.
+
+---
+
+## Scope and applicability
+
+This framework is designed for:
+
+- SAP ECC-to-S/4HANA migrations (Greenfield and Brownfield)
+- Multi-country, multi-system go-live operations
+- Programs with data migration workstreams integrated into cutover execution
+- Environments where regulatory compliance (Finance, HR, Tax) is part of the go-live criteria
+
+It is not a generic IT deployment checklist. The specificity is intentional.
+
+---
+
+## Author
+
+**Nelson Biagio Junior**
+Technology Program Director | SAP S/4HANA | M&A Integration
+
+33 years in enterprise IT. 12+ years leading SAP programs across Brazil, Latin America, the US, and Europe.
+
+[LinkedIn](https://linkedin.com/in/nelson-biagio-junior)
+
+---
+
+## License
+
+MIT — use freely, adapt to your context, attribute if you share.
