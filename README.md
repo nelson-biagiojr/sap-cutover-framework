@@ -1,3 +1,7 @@
+## 👤 About
+
+[Learn more about my profile and approach](about.md)
+
 # SAP Cutover Framework
 
 A structured framework for planning and executing cutover activities in high-criticality SAP S/4HANA programs.
