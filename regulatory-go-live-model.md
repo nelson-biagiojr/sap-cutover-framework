@@ -1,5 +1,9 @@
 # Regulatory Go-Live Model — SAP Programs
 
+# Regulatory Go-Live Model — SAP Programs
+
+![Regulatory Go-Live Model](assets/regulatory-go-live-model.png)
+
 Most SAP go-lives have a negotiable timeline. Regulatory go-lives do not.
 
 When the go-live date is set by law — a government mandate, a tax reform effective date, a labor compliance deadline — the program operates under a fundamentally different risk profile. The rollback option that exists in every other go-live does not exist here in any meaningful sense. Missing the date is not a delayed go-live. It is a compliance failure with legal, financial, and reputational consequences.
