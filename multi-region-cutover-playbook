@@ -1,5 +1,9 @@
 # Multi-Region Cutover Playbook
 
+## 🌍 Multi-Region Cutover Playbook
+
+![Multi-Region Cutover Playbook](assets/multi-region-cutover-playbook.png)
+
 Single-region cutovers are complex. Multi-region cutovers are complex in multiple dimensions simultaneously — and the dimensions interact.
 
 A cutover across 14 countries, 8 integrated enterprise systems, and multiple time zones is not a single-region cutover repeated several times. It is a different operational problem. The sequencing logic is different, the command structure is different, the failure modes are different, and the definition of "go-live" is different.
