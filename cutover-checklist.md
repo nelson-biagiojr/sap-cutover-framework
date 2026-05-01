@@ -1,5 +1,9 @@
 # SAP Cutover Checklist (Enterprise)
 
+## Decision Flow During Cutover
+
+![Cutover Decision Flow](assets/cutover-decision-flow.png)
+
 ## 1. Governance & Readiness
 
 - Final Go/No-Go criteria defined and approved

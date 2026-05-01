@@ -1,5 +1,9 @@
 # SAP Hypercare Framework (Enterprise)
 
+## Incident Management Flow
+
+![Hypercare Incident Flow](assets/hypercare-incident-management-flow.png)
+
 ## Objective
 
 Stabilize system operations post go-live and ensure business continuity.

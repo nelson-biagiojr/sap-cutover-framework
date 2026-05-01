@@ -1,5 +1,10 @@
 # SAP War Room Model (Enterprise)
 
+## War Room Command Structure
+
+![Cutover War Room](assets/cutover-war-room-structure.png)
+
+
 ## Objective
 
 Provide centralized control and rapid decision-making during cutover and hypercare.
