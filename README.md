@@ -31,17 +31,7 @@ This framework does not prescribe a universal method. It documents what actually
 ---
 
 ## What's in this repository
-
-| File | What it covers |
-|---|---|
-| `cutover-flow.md` | End-to-end execution sequence with phase gates and decision triggers |
-| `cutover-checklist.md` | Go/No-Go criteria, technical and business readiness validation |
-| `war-room-model.md` | Command structure, escalation logic, roles, and real-time issue management |
-| `hypercare-framework.md` | Post go-live stabilization model: SLA, incident triage, L1/L2/L3 structure |
-| `common-cutover-failures.md` | Failure patterns observed across multiple programs — and how they were addressed |
-| `lessons-learned.md` | What changes between the plan and execution, and why |
-| `ai-for-cutover.md` | How AI tools can support cutover planning and war room operations |
-| `executive-summary.md` | C-level communication model during cutover windows |
+FileWhat it coverscutover-flow.mdEnd-to-end execution sequence with phase gates and decision triggerscutover-checklist.mdGo/No-Go criteria, technical and business readiness validationwar-room-model.mdCommand structure, escalation logic, roles, and real-time issue management — including multi-region coordinationdata-migration-cutover-integration.mdData migration as an integrated cutover workstream: sequencing, reconciliation gates, sign-off protocol, and post-go-live tail activitieshypercare-framework.mdPost go-live stabilization model: SLA, incident triage, L1/L2/L3 structurecommon-cutover-failures.mdFailure patterns observed across multiple programs — governance, planning, execution, multi-region, and communicationlessons-learned.mdWhat actually changes between the plan and execution, and why most cutover failures originate weeks before the downtime windowai-for-cutover.mdHow AI tools can support cutover planning and war room operationsexecutive-summary.mdC-level communication model during cutover windowsabout.mdPrograms that shaped this framework and context behind the content
 
 ---
 
