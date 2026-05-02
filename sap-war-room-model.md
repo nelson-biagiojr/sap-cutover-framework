@@ -4,7 +4,7 @@
 
 ![Cutover War Room](assets/cutover-war-room-structure.png)
 
-'''graph LR
+graph LR
     subgraph Governance
         Exec[Executive Committee]
     end
@@ -28,7 +28,7 @@
     EMEA -- Handoff --> APAC
     APAC -- Handoff --> AMER
 
-    style PD fill:#bbf,stroke:#333,stroke-width:2px'''
+    style PD fill:#bbf,stroke:#333,stroke-width:2px
 
 ---------------------------------------------------------------------
 
