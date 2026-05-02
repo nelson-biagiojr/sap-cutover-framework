@@ -5,7 +5,7 @@
 ![Cutover War Room](assets/cutover-war-room-structure.png)
 
 ```mermaid 
-graph LR
+flowchart LR
     subgraph Governance
         Exec[Executive Committee]
     end
@@ -29,7 +29,8 @@ graph LR
     EMEA -- Handoff --> APAC
     APAC -- Handoff --> AMER
 
-    style PD fill:#bbf,stroke:#333,stroke-width:2px```
+    style PD fill:#bbf,stroke:#333,stroke-width:2px
+    ```
 
 ---------------------------------------------------------------------
 
