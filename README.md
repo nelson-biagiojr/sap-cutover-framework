@@ -31,24 +31,35 @@ This framework does not prescribe a universal method. It documents what actually
 ---
 ## What's in this repository
 
-## What's in this repository
+### 📌 Table of Contents
 
-| File | What it covers |
-|:---|:---|
-| [cutover-flow.md](cutover-flow.md) | End-to-end execution sequence with phase gates and decision triggers |
-| [cutover-checklist.md](cutover-checklist.md) | Go/No-Go criteria, technical and business readiness validation |
-| [war-room-model.md](war-room-model.md) | Command structure, escalation logic, roles, and real-time issue management — including multi-region coordination |
-| [multi-region-cutover-playbook.md](multi-region-cutover-playbook.md) | Multi-region go-live execution: follow-the-sun model, cross-region dependency sequencing, regional vs. global command structure, handoff protocol, and wave-based go-live logic |
-| [data-migration-cutover-integration.md](data-migration-cutover-integration.md) | Data migration as an integrated cutover workstream: sequencing, reconciliation gates, sign-off protocol, and post-go-live tail activities |
-| [regulatory-golive-model.md](regulatory-golive-model.md) | Go-live execution under regulatory deadlines — Brazil Tax Reform (IBS/CBS), eSocial, compliance gates, and what changes when the timeline is set by law |
-| [hypercare-framework.md](hypercare-framework.md) | Post go-live stabilization model: SLA, incident triage, L1/L2/L3 structure |
-| [common-cutover-failures.md](common-cutover-failures.md) | Failure patterns observed across multiple programs — governance, planning, execution, multi-region, and communication |
-| [lessons-learned.md](lessons-learned.md) | What actually changes between the plan and execution, and why most cutover failures originate weeks before the downtime window |
-| [raci-cutover-template.md](raci-cutover-template.md) | Full RACI matrix for cutover execution: pre-cutover through hypercare, including go-live decision, rollback, and multi-region additions |
-| [cutover-communication-templates.md](cutover-communication-templates.md) | 8 ready-to-use templates covering the full communication cycle: system freeze, downtime, war room updates, executive status, go-live declaration, rollback, and hypercare activation |
-| [ai-for-cutover.md](ai-for-cutover.md) | How AI tools can support cutover planning and war room operations |
-| [executive-summary.md](executive-summary.md) | C-level communication model during cutover windows |
-| [about.md](about.md) | Programs that shaped this framework and context behind the content |
+#### Strategy and Planning
+* **[Cutover Execution Flow](cutover-flow.md):** End-to-end execution sequence with phase gates and decision triggers.
+* **[Pre-SUM Preparation](pre-sum-readiness.md):** Technical readiness framework focused on Add-on governance and stability.
+* **[Cutover Checklist](cutover-checklist.md):** Go/No-Go criteria and business/technical readiness validation.
+
+#### Governance and Command Center
+* **[SAP War Room Model](sap-war-room-model.md):** Command structure, escalation logic, and real-time issue management.
+* **[RACI Matrix Template](raci-cutover-template.md):** Updated accountability matrix prioritizing vendor leadership for complex programs [1],[2].
+* **[Executive Summary](executive-summary.md):** Communication model for C-level reporting during cutover windows [3].
+
+#### Specialized Execution Modules
+* **[Data Migration Integration](data-migration-cutover-integration.md):** Data migration as an integrated workstream with reconciliation gates [3],[4].
+* **[Regulatory Go-Live Model](regulatory-go-live-model.md):** Execution under legal deadlines like Brazil Tax Reform (IBS/CBS) and eSocial [3],[5].
+* **[Multi-Region Playbook](multi-region-cutover-playbook.md):** Follow-the-sun strategy and global coordination for multinational programs [3],[6].
+* **[AI for Cutover](ai-for-cutover.md):** Using AI tools to support planning and War Room operations [3].
+
+#### Stabilization and Continuous Improvement
+* **[Hypercare Framework](hypercare-framework.md):** Post go-live stabilization model with incident triage (L1/L2/L3) [3],[7].
+* **[Common Cutover Failures](common-cutover-failures.md):** Observed failure patterns in governance, planning, and communication [3].
+* **[Lessons Learned](lessons-learned.md):** "Battle scars" revealing why most failures originate weeks before downtime [3],[8].
+
+#### Assets and Communication
+* **[Communication Templates](cutover-communication-templates.md):** 8 ready-to-use templates for system freeze, downtime, and go-live [3].
+* **[Repository Overview](repository-overview.md):** Guidelines on how to use this framework effectively [9].
+* **[About](about.md):** Context and large-scale programs that shaped this content [9],[3].
+
+
 
 ---
 ## 📂 Downloadable Templates
