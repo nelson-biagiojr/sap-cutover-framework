@@ -40,24 +40,25 @@ This framework does not prescribe a universal method. It documents what actually
 
 #### Governance and Command Center
 * **[SAP War Room Model](sap-war-room-model.md):** Command structure, escalation logic, and real-time issue management.
-* **[RACI Matrix Template](raci-cutover-template.md):** Updated accountability matrix prioritizing vendor leadership for complex programs [1],[2].
-* **[Executive Summary](executive-summary.md):** Communication model for C-level reporting during cutover windows [3].
+* **[RACI Matrix Template](raci-cutover-template.md):** Updated accountability matrix prioritizing vendor leadership for complex programs.
+* **[Executive Summary](executive-summary.md):** Communication model for C-level reporting during cutover windows.
 
 #### Specialized Execution Modules
-* **[Data Migration Integration](data-migration-cutover-integration.md):** Data migration as an integrated workstream with reconciliation gates [3],[4].
-* **[Regulatory Go-Live Model](regulatory-go-live-model.md):** Execution under legal deadlines like Brazil Tax Reform (IBS/CBS) and eSocial [3],[5].
-* **[Multi-Region Playbook](multi-region-cutover-playbook.md):** Follow-the-sun strategy and global coordination for multinational programs [3],[6].
-* **[AI for Cutover](ai-for-cutover.md):** Using AI tools to support planning and War Room operations [3].
+* **[Data Migration Integration](data-migration-cutover-integration.md):** Data migration as an integrated workstream with reconciliation gates.
+* **[Regulatory Go-Live Model](regulatory-go-live-model.md):** Execution under legal deadlines like Brazil Tax Reform (IBS/CBS) and eSocial.
+* **[Multi-Region Playbook](multi-region-cutover-playbook.md):** Follow-the-sun strategy and global coordination for multinational programs.
+* **[AI for Cutover](ai-for-cutover.md):** Using AI tools to support planning and War Room operations.
 
 #### Stabilization and Continuous Improvement
-* **[Hypercare Framework](hypercare-framework.md):** Post go-live stabilization model with incident triage (L1/L2/L3) [3],[7].
-* **[Common Cutover Failures](common-cutover-failures.md):** Observed failure patterns in governance, planning, and communication [3].
-* **[Lessons Learned](lessons-learned.md):** "Battle scars" revealing why most failures originate weeks before downtime [3],[8].
+* **[Hypercare Framework](hypercare-framework.md):** Post go-live stabilization model with incident triage (L1/L2/L3),.
+* **[Common Cutover Failures](common-cutover-failures.md):** Observed failure patterns in governance, planning, and communication.
+* **[Lessons Learned](lessons-learned.md):** "Battle scars" revealing why most failures originate weeks before downtime.
 
 #### Assets and Communication
-* **[Communication Templates](cutover-communication-templates.md):** 8 ready-to-use templates for system freeze, downtime, and go-live [3].
-* **[Repository Overview](repository-overview.md):** Guidelines on how to use this framework effectively [9].
-* **[About](about.md):** Context and large-scale programs that shaped this content [9],[3].
+* **[Communication Templates](cutover-communication-templates.md):** 8 ready-to-use templates for system freeze, downtime, and go-live.
+* **[Repository Overview](repository-overview.md):** Guidelines on how to use this framework effectively.
+* **[About](about.md):** Context and large-scale programs that shaped this content.
+* **[LICENSE](LICENSE):** MIT License
 
 
 
@@ -122,6 +123,5 @@ Technology Program Director | SAP S/4HANA | M&A Integration
 
 ---
 
-## License
 
-MIT — use freely, adapt to your context, attribute if you share.
+
