@@ -206,6 +206,50 @@ The failure modes in regulatory programs overlap with general cutover failures b
 The common thread: regulatory programs require legal/tax expertise inside the delivery team — not as an external reviewer, but as an active participant in configuration decisions, testing sign-off, and hypercare.
 
 ---
+## 1. Fixed Deadlines: The Regulatory Paradigm Shift
+In a standard cutover, the Go/No-Go decision often hinges on technical stability. In a **Regulatory Go-Live**, the deadline is immutable (e.g., the legal effective date of a new tax law).
+
+*   **Timeline by Law:** The downtime window and system opening must align with the legal requirement.
+*   **Minimum Viable Compliance (MVC):** Governance shifts from "Is every feature ready?" to "What is the absolute minimum required to be legally compliant on Day 1?"
+*   **Survival Criteria:** Prioritize legal reporting, tax calculation, and mandatory filings over non-essential business enhancements.
+
+## 2. Specific Compliance Gates
+Beyond standard technical checks, a regulatory cutover requires explicit sign-offs from non-IT stakeholders:
+
+| Compliance Gate | Stakeholder | Key Validation |
+| :--- | :--- | :--- |
+| **Tax & Fiscal Sign-off** | Tax Director | Accuracy of tax calculation (e.g., IBS/CBS) and fiscal book generation. |
+| **Audit Readiness** | Internal Audit | Integrity of the audit trail and adherence to internal control standards. |
+| **Legal Compliance** | Legal Counsel | Validation that system outputs meet statutory requirements. |
+| **HR/Payroll Compliance** | HR Director | Successful synchronization of mandatory government events (e.g., eSocial). |
+
+## 3. Risk Management & Penalties
+Risk logs in a regulatory cutover must account for "Failure to Comply" as a top-tier critical incident.
+
+*   **Penalty Mapping:** Include potential fines, legal sanctions, and operational "stop-ship" orders in the War Room risk matrix.
+*   **Compliance over Features:** If a bug affects a "nice-to-have" report but the tax engine is working, the "Go" decision is prioritized.
+
+## 4. The "Forward Fix" vs. Rollback Paradox
+In most regulatory cutovers, **rollback is not an option** once the legal deadline has passed, because the legacy system may no longer be legally authorized to process transactions under the new rules.
+
+*   **Strategy:** If a critical error is found post-opening, the War Room must execute a "Forward Fix" (immediate correction in Production) instead of reverting to the legacy environment.
+*   **Pre-Requisite:** This requires a highly responsive L3 support team and pre-approved emergency transport protocols.
+
+## 5. Brazil-Specific Context (Case Studies)
+This framework is particularly relevant for the Brazilian landscape, given the complexity of its tax and labor laws [1, 2].
+
+### Tax Reform (IBS/CBS)
+*   **Dual-Rate Period:** Management of transition periods where new and old taxes coexist.
+*   **Sign-off:** Mandatory validation of "Notas Fiscais" (Electronic Invoices) against government web services.
+
+### eSocial (Labor & Payroll)
+*   **Event Sync:** Ensuring that payroll events reach government servers within the legal window to avoid labor lawsuits and fines.
+
+### LGPD (Data Privacy)
+*   **Data Migration Compliance:** Ensuring that sensitive PII (Personally Identifiable Information) is handled according to privacy laws during the move from ECC to S/4HANA.
+
+## Positioning
+This model ensures that the **War Room** maintains its discipline under the highest possible pressure: where the "No-Go" decision carries the same weight of risk as a failed "Go" [2, 3].
 
 ## Summary: what changes in a regulatory go-live
 
