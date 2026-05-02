@@ -45,41 +45,41 @@ A complete operating model for SAP cutover execution, covering:
 ## 📌 Table of Contents
 
 ### Strategy and Planning
-- **Cutover Execution Flow:** End-to-end execution with sequencing logic, phase gates, and decision triggers.  
-- **Pre-SUM Preparation:** Technical readiness model covering Add-on governance, validation cycles, and system stability.  
-- **Cutover Checklist:** Structured Go/No-Go criteria for business and technical readiness.  
-- **Rollback Framework:** Controlled rollback decision model including PoNR, triggers, and governance.  
+- **[Cutover Execution Flow](cutover-flow.md):** End-to-end execution with sequencing logic, phase gates, and decision triggers.
+- **[Pre-SUM Preparation](pre-sum-preparation.md):** Technical readiness model covering Add-on governance, validation cycles, and system stability.
+- **[Cutover Checklist](cutover-checklist.md):** Structured Go/No-Go criteria for business and technical readiness.
+- **[Rollback Framework](cutover-rollback-framework.md):** Controlled rollback decision model including PoNR, triggers, and governance.
 
 ---
 
 ### Governance and Command Center
-- **SAP War Room Model:** Centralized command structure with escalation logic and real-time control.  
-- **RACI Matrix Template:** Accountability model ensuring clear ownership in complex programs.  
-- **Executive Summary Model:** Structured communication for C-level reporting during critical windows.  
-- **Decision Framework:** Practical model for decision-making under pressure.  
+- **[SAP War Room Model](sap-war-room-model.md):** Centralized command structure with escalation logic and real-time control.
+- **[RACI Matrix Template](raci-cutover-template.md):** Accountability model ensuring clear ownership in complex programs.
+- **[Executive Summary Model](executive-summary.md):** Structured communication for C-level reporting during critical windows.
+- **[Decision Framework](cutover-decision-framework.md):** Practical model for decision-making under pressure.
 
 ---
 
 ### Specialized Execution Modules
-- **Data Migration Integration:** Migration embedded into cutover execution with reconciliation gates.  
-- **Regulatory Go-Live Model:** Execution under legal constraints (e.g., Brazil Tax Reform, eSocial).  
-- **Multi-Region Playbook:** Follow-the-sun execution and global dependency coordination.  
-- **AI for Cutover:** AI-assisted risk identification, decision support, and communication.  
+- **[Data Migration Integration](data-migration-cutover-integration.md):** Migration embedded into cutover execution with reconciliation gates.
+- **[Regulatory Go-Live Model](regulatory-go-live-model.md):** Execution under legal constraints, e.g., Brazil Tax Reform and eSocial.
+- **[Multi-Region Playbook](multi-region-cutover-playbook.md):** Follow-the-sun execution and global dependency coordination.
+- **[AI for Cutover](ai-for-cutover.md):** AI-assisted risk identification, decision support, and communication.
 
 ---
 
 ### Stabilization and Continuous Improvement
-- **Hypercare Framework:** Post go-live stabilization with structured incident triage.  
-- **Common Cutover Failures:** Recurring failure patterns across governance, planning, and execution.  
-- **Lessons Learned:** Real-world insights showing why failures originate before downtime.  
+- **[Hypercare Framework](hypercare-framework.md):** Post go-live stabilization with structured incident triage.
+- **[Common Cutover Failures](common-cutover-failures.md):** Recurring failure patterns across governance, planning, and execution.
+- **[Lessons Learned](lessons-learned.md):** Real-world insights showing why failures originate before downtime.
 
 ---
 
 ### Assets and Communication
-- **Communication Templates:** Ready-to-use templates for system freeze, downtime, and go-live.  
-- **Repository Overview:** Guidance on how to use the framework effectively.  
-- **About:** Context and real-world programs behind the framework.  
-- **LICENSE:** MIT License  
+- **[Communication Templates](cutover-communication-templates.md):** Ready-to-use templates for system freeze, downtime, and go-live.
+- **[Repository Overview](repository-overview.md):** Guidance on how to use the framework effectively.
+- **[About](about.md):** Context and real-world programs behind the framework.
+- **[LICENSE](LICENSE):** MIT License
 
 ---
 
