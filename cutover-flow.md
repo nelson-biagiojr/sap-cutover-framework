@@ -1,6 +1,6 @@
 # Cutover Execution Flow
 
-'''graph TD
+```mermaid graph TD
     A[Pre-Cutover: Readiness Check] --> B[System Freeze & Downtime Window]
     B --> C[Data Migration & Reconciliation]
     C --> D{Phase Gate: Data Sign-off}
@@ -13,7 +13,7 @@
     H -- Go --> J[System Open & Hypercare]
     
     style H fill:#f96,stroke:#333,stroke-width:4px
-    style I fill:#f66,stroke:#333'''
+    style I fill:#f66,stroke:#333```
 
 ## Phase 1 – Preparation
 - Planning and validation  

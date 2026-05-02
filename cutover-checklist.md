@@ -4,7 +4,7 @@
 
 ![Cutover Decision Flow](assets/cutover-decision-flow.png)
 
-'''flowchart TD
+```mermaid flowchart TD
     Start([Incidente Identificado]) --> Impact{Impacto Crítico?}
     Impact -- Não --> Log[Log & Track em Hypercare]
     Impact -- Sim --> Escalate[Escalonamento para War Room]
@@ -14,7 +14,7 @@
     Trigger -- Sim --> Rollback[Iniciar Protocolo de Rollback]
     Trigger -- Não --> Risk[Aceitar Risco & Proceed - Sign-off Executivo]
     
-    style Rollback fill:#f66,stroke:#333'''
+    style Rollback fill:#f66,stroke:#333```
 
 ## 1. Governance & Readiness
 
