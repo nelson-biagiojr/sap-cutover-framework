@@ -8,18 +8,18 @@ This repository was built on the principle that **real-world experience beats th
 
 ```Mermaid
 flowchart TD
-    Expert["Expert in the Field"] -- "Share Battle Scars / Lessons Learned" --> PR["Pull Request / Contribution"]
-    PR -- "Review & Validation" --> Framework["SAP Cutover Framework"]
-    Framework -- "Enhanced Best Practices" --> GlobalCommunity["Global SAP Community"]
-    GlobalCommunity -- "Better Executed Cutovers" --> Expert
-    
-    subgraph Feedback_Loop
-        PR
-        Framework
+    Node1["Expert in the Field"] -- "Share Battle Scars" --> Node2["Pull Request / Contribution"]
+    Node2 -- "Review & Validation" --> Node3["SAP Cutover Framework"]
+    Node3 -- "Enhanced Best Practices" --> Node4["Global SAP Community"]
+    Node4 -- "Better Executed Cutovers" --> Node1
+
+    subgraph FeedbackLoop ["Feedback Loop"]
+        Node2
+        Node3
     end
 
-    style Framework fill:#bbf,stroke:#333,stroke-width:2px
-    style Expert fill:#f96,stroke:#333
+    style Node3 fill:#bbf,stroke:#333,stroke-width:2px
+    style Node1 fill:#f96,stroke:#333
 ```
 
 ### 1. Share "Lessons Learned" (Anonymous or Attributed)
