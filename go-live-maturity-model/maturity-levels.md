@@ -289,7 +289,7 @@ when it was inconvenient to do so.
 ## Level 5 — Adaptive
 
 <p align="center">
-  <img src="./go-live-maturity-model/images/level-5-adaptative.png" width="100%">
+  <img src="./go-live-maturity-model/images/level-5-adaptive.png" width="100%">
 </p>
 
 ### What It Looks Like
