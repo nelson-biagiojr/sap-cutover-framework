@@ -1,9 +1,5 @@
 # SAP Go-Live Maturity Levels
 
-# SAP Go-Live Maturity Levels
-
-# SAP Go-Live Maturity Levels
-
 <p align="center">
   <img src="./go-live-maturity-model/images/maturity-levels-overview.png" width="100%">
 </p>
