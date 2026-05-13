@@ -230,6 +230,10 @@ The difference matters. A project ends. A capability scales.
 
 ## Level 4 — Predictive
 
+<p align="center">
+  <img src="./go-live-maturity-model/images/level-4-predictive.png" width="100%">
+</p>
+
 ### What It Looks Like
 
 Governance becomes proactive rather than responsive.
