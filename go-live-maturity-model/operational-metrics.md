@@ -187,6 +187,10 @@ Final Readiness Score:
 
 # 2. Defect Leakage Rate (DLR)
 
+<p align="center">
+  <img src="./images/defect-leakage-rate-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure defects escaping into production.
