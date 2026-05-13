@@ -108,6 +108,10 @@ It supports decision-making in real time.
 
 # 1. Cutover Readiness Score (CRS)
 
+<p align="center">
+  <img src="./images/cutover-readiness-score-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure overall operational readiness before deployment.
