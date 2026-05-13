@@ -166,6 +166,10 @@ within their own lane. Cross-lane problems still create confusion.
 
 ## Level 3 — Controlled
 
+<p align="center">
+  <img src="./go-live-maturity-model/images/level-3-controlled.png" width="100%">
+</p>
+
 ### What It Looks Like
 
 Execution becomes genuinely integrated.
