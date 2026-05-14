@@ -673,6 +673,10 @@ Meaning:
 
 # 10. Operational Risk Exposure (ORE)
 
+<p align="center">
+  <img src="./images/operational-risk-exposure-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure aggregated operational risk concentration.
