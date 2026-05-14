@@ -565,6 +565,10 @@ Meaning:
 
 # 8. Rollback Readiness Score (RRS)
 
+<p align="center">
+  <img src="./images/rollback-readiness-score-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure rollback execution capability.
