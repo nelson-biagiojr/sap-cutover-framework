@@ -381,7 +381,7 @@ HSI = 75
 
 ---
 
-## Command Center Efficiency (CCE) 
+## 5. Command Center Efficiency (CCE) 
 
 <p align="center">
   <img src="./images/command-center-efficiency-dashboard.png" width="100%">
