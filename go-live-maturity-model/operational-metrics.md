@@ -310,6 +310,10 @@ BRI = 81.25
 
 # 4. Hypercare Stability Index (HSI)
 
+<p align="center">
+  <img src="./images/hypercare-stability-index-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure stabilization convergence after go-live.
