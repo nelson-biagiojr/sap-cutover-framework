@@ -249,6 +249,11 @@ DLR = 7.26%
 
 # 3. Business Readiness Index (BRI)
 
+<p align="center">
+  <img src="./images/business-readiness-index-dashboard.png" width="100%">
+</p>
+
+
 ## Objective
 
 Measure organizational preparedness.
