@@ -625,6 +625,11 @@ RRS = 81.67
 
 # 9. Stabilization Forecast Index (SFI)
 
+<p align="center">
+  <img src="./images/stabilization-forecast-index-dashboard.png" width="100%">
+</p>
+
+
 ## Objective
 
 Predict stabilization duration.
