@@ -1,138 +1,211 @@
 # SAP Cutover Framework
 
-## Executive Summary
+## Operational Governance, Stabilization Intelligence and Executive Telemetry for SAP Transformations
 
-Cutover is not where projects succeed.  
-It is where they fail or prove they were designed to succeed.
+<p align="center">
+  <img src="./go-live-maturity-model/images/sap-go-live-operational-maturity-framework.png" width="100%">
+</p>
 
-This repository provides a structured, execution-focused framework for SAP S/4HANA cutover, built from real-world experience in high-complexity environments.
-
-It is not theoretical.  
-It is designed for decision-making, execution control, and governance under pressure.
-
-![Visual operating model for SAP cutover execution, covering strategy and planning, governance and command center, specialized execution modules, and stabilization with continuous improvement](assets/sap-cutover-framework-map.png)
----
-
-## The Problem
-
-Most SAP programs do not fail due to poor planning.
-
-They fail because:
-- Execution breaks under pressure  
-- Visibility across workstreams is limited  
-- Decisions are delayed or fragmented  
-- Governance collapses during critical windows  
-
-This framework addresses those failure points directly.
+<p align="center">
+  <em>
+    From Strategy to Stabilization. Execute with Control. Decide with Confidence.
+  </em>
+</p>
 
 ---
 
-## What This Framework Delivers
+# Overview
 
-A complete operating model for SAP cutover execution, covering:
+The SAP Cutover Framework is an operational governance and stabilization intelligence repository designed to support SAP S/4HANA transformations, complex cutovers, hypercare execution, and post-go-live operational stabilization.
 
-- Decision-making under uncertainty  
-- Structured execution control  
-- Centralized governance and command  
-- Multi-region coordination  
-- Regulatory go-live constraints  
-- AI-assisted decision support  
+The framework combines:
+- operational governance
+- telemetry-driven execution
+- executive visibility
+- stabilization intelligence
+- predictive operational metrics
+- command center orchestration
+- hypercare governance
 
----
-## 📌 Table of Contents
-
-### Strategy and Planning
-- **[Cutover Execution Flow](cutover-flow.md):** End-to-end execution with sequencing logic, phase gates, and decision triggers.
-- **[Pre-SUM Preparation](pre-sum-preparation.md):** Technical readiness model covering Add-on governance, validation cycles, and system stability.
-- **[Cutover Checklist](cutover-checklist.md):** Structured Go/No-Go criteria for business and technical readiness.
-- **[Rollback Framework](sap-cutover-rollback-decision.md):** Controlled rollback decision model including PoNR, triggers, governance, and restoration sequence.
+to improve operational readiness, reduce go-live risks, and accelerate stabilization outcomes.
 
 ---
 
-### Governance and Command Center
-- **[SAP War Room Model](sap-war-room-model.md):** Centralized command structure with escalation logic and real-time control.
-- **[RACI Matrix Template](raci-cutover-template.md):** Accountability model ensuring clear ownership in complex programs.
-- **[Executive Summary Model](executive-summary.md):** Structured communication for C-level reporting during critical windows.
-- **[Decision Framework](cutover-decision-framework.md):** Practical model for decision-making under pressure.
+# Core Framework Domains
+
+## Go-Live Operational Maturity Model
+
+<p align="center">
+  <img src="./go-live-maturity-model/images/maturity-levels-overview.png" width="100%">
+</p>
+
+The Go-Live Operational Maturity Model defines a structured evolution path for SAP operational governance and stabilization capabilities.
+
+### Related Documents
+- [Maturity Levels](./go-live-maturity-model/maturity-levels.md)
+- [Operational Metrics](./go-live-maturity-model/operational-metrics.md)
+
+### Maturity Levels
+- Level 1 — Reactive
+- Level 2 — Structured
+- Level 3 — Controlled
+- Level 4 — Predictive
+- Level 5 — Adaptive
 
 ---
 
-### Specialized Execution Modules
-- **[Data Migration Integration](data-migration-cutover-integration.md):** Migration embedded into cutover execution with reconciliation gates.
-- **[Regulatory Go-Live Model](regulatory-go-live-model.md):** Execution under legal constraints (e.g., Brazil Tax Reform, eSocial).
-- **[Multi-Region Playbook](multi-region-cutover-playbook.md):** Follow-the-sun execution and global dependency coordination.
-- **[AI for Cutover](ai-for-cutover.md):** AI-assisted risk identification, decision support, and communication.
+## Operational Metrics Framework
+
+<p align="center">
+  <img src="./go-live-maturity-model/images/operational-metrics-framework-overview.png" width="100%">
+</p>
+
+The Operational Metrics Framework introduces telemetry-driven KPIs designed to measure operational readiness, stabilization performance, and governance effectiveness.
+
+### Included Metrics
+- Cutover Readiness Score (CRS)
+- Defect Leakage Rate (DLR)
+- Business Readiness Index (BRI)
+- Hypercare Stability Index (HSI)
+- Command Center Efficiency (CCE)
+- Transport Governance Index (TGI)
+- Stabilization Velocity (SV)
+- Rollback Readiness Score (RRS)
+- Stabilization Forecast Index (SFI)
+- Operational Risk Exposure (ORE)
+
+### Related Documents
+- [Operational Metrics](./go-live-maturity-model/operational-metrics.md)
 
 ---
 
-### Stabilization and Continuous Improvement
-- **[Hypercare Framework](hypercare-framework.md):** Post go-live stabilization with structured incident triage.
-- **[Common Cutover Failures](common-cutover-failures.md):** Recurring failure patterns across governance, planning, and execution.
-- **[Lessons Learned](lessons-learned.md):** Real-world insights showing why failures originate before downtime.
+## Operational Governance Mind Map
+
+<p align="center">
+  <img src="./go-live-maturity-model/images/mind-map-2.png" width="100%">
+</p>
+
+This operational mind map consolidates:
+- governance domains
+- telemetry relationships
+- stabilization concepts
+- operational intelligence structures
+- hypercare orchestration components
+
+across the SAP transformation lifecycle.
 
 ---
 
-### Assets and Communication
-- **[Communication Templates](cutover-communication-templates.md):** Ready-to-use templates for system freeze, downtime, and go-live.
-- **[Repository Overview](repository-overview.md):** Guidance on how to use the framework effectively.
-- **[About](about.md):** Context and real-world programs behind the framework.
+# Repository Navigation
+
+## Core Governance & Frameworks
+
+| Document | Description |
+|---|---|
+| [Cutover Flow](./cutover-flow.md) | End-to-end SAP cutover execution flow |
+| [Hypercare Framework](./hypercare-framework.md) | Hypercare governance and stabilization model |
+| [SAP War Room Model](./sap-war-room-model.md) | Operational command center governance |
+| [AI for Cutover](./ai-for-cutover.md) | AI-assisted operational governance concepts |
+| [Executive Summary](./executive-summary.md) | Executive-level transformation governance summary |
+| [Lessons Learned](./lessons-learned.md) | Operational lessons learned framework |
+| [Common Cutover Failures](./common-cutover-failures.md) | Common operational failure patterns |
+| [Regulatory Go-Live Model](./regulatory-go-live-model.md) | Governance approach for regulated deployments |
+| [Multi-Region Cutover Playbook](./multi-region-cutover-playbook.md) | Multi-country operational coordination model |
+| [Pre-SUM Preparation](./pre-sum-preparation.md) | SAP upgrade preparation governance |
+| [Cutover Checklist](./cutover-checklist.md) | Operational execution checklist |
+| [Cutover Communication Templates](./cutover-communication-templates.md) | Communication governance templates |
+| [Data Migration Cutover Integration](./data-migration-cutover-integration.md) | Data migration operational integration model |
+| [Repository Overview](./repository-overview.md) | High-level repository structure and navigation |
+| [About](./about.md) | Repository purpose and strategic vision |
 
 ---
 
-### Repository
-- **[Contributing](CONTRIBUTING.md):** How to contribute to this framework — feedback, improvements, and new content.
-- **[License](LICENSE.md):** MIT License — use freely, adapt to your context, attribute if you share.
+# Repository Structure
+
+```text
+sap-cutover-framework/
+│
+├── go-live-maturity-model/
+│   ├── images/
+│   ├── maturity-levels.md
+│   ├── operational-metrics.md
+│
+├── cutover-flow.md
+├── hypercare-framework.md
+├── sap-war-room-model.md
+├── ai-for-cutover.md
+├── lessons-learned.md
+├── executive-summary.md
+├── common-cutover-failures.md
+├── regulatory-go-live-model.md
+└── README.md
+```
 
 ---
 
-## How to Use
+# Framework Objectives
 
-This is not a documentation repository.  
-It is an execution system.
-
-Use it to:
-- Structure cutover planning  
-- Define governance and escalation models  
-- Prepare Go/No-Go decisions  
-- Operate War Rooms effectively  
-- Manage multi-region execution  
-- Support decisions under pressure  
+The framework aims to support organizations in:
+- improving SAP operational governance
+- reducing go-live instability
+- increasing deployment predictability
+- accelerating stabilization cycles
+- improving hypercare execution
+- strengthening executive visibility
+- operationalizing telemetry-based governance
 
 ---
 
-## Key Principle
+# Strategic Vision
 
-> Most cutover failures are not technical.  
-> They are the result of decisions not made — or made too late.
-
----
-
-## Positioning
-
-This framework is built from real program experience across:
-
-- ECC to S/4HANA migrations  
-- Global upgrades  
-- Regulatory-driven go-lives  
-- Multi-region deployments  
-
-It reflects what actually works when execution begins.
+Future releases will expand:
+- AI-assisted operational telemetry
+- predictive stabilization analytics
+- synthetic operational datasets
+- Power BI governance dashboards
+- operational intelligence models
+- command center automation
+- executive operational cockpits
 
 ---
 
-## Contribution
+# Releases
 
-This repository is open for contributions focused on:
+## Current Release
 
-- Execution models  
-- Governance improvements  
-- Real-world scenarios  
-- Practical templates  
+### v1.1 — Operational Governance & Maturity Framework
 
-Please refer to the [Contribution Guidelines](CONTRIBUTING.md) for details.
+Main additions:
+- Go-Live Operational Maturity Model
+- Operational Metrics Framework
+- Executive KPI Dashboards
+- Stabilization Forecast Concepts
+- Governance Visual Assets
+- Repository Refactoring
+
+### Changelog
+- [CHANGELOG](./CHANGELOG.md)
 
 ---
 
-## License
+# Author
 
-MIT License
+## Nelson Biagio Jr
+
+Senior SAP Program & Cutover Manager
+
+Specialized in:
+- SAP S/4HANA transformations
+- cutover governance
+- hypercare orchestration
+- stabilization management
+- operational governance
+- executive delivery management
+
+---
+
+# License
+
+This repository is licensed under the MIT License.
+
+- [MIT License](./LICENSE)
