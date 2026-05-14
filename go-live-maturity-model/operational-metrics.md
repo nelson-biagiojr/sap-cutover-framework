@@ -506,6 +506,10 @@ TGI = 92.5
 
 # 7. Stabilization Velocity (SV)
 
+<p align="center">
+  <img src="./images/stabilization-velocity-dashboard.png" width="100%">
+</p>
+
 ## Objective
 
 Measure speed of operational convergence.
