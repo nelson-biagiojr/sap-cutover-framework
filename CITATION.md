@@ -35,7 +35,7 @@ BIAGIO JUNIOR, Nelson. **SAP Operational Intelligence**: a framework for
 cutover governance, stabilization telemetry, and executive visibility in
 SAP S/4HANA transformation programs. São Paulo, 2026. Disponível em:
 https://github.com/nelson-biagiojr/sap-cutover-framework.
-Acesso em: inserir data de acesso.
+Acesso em: Insert access date.
 
 ---
 
@@ -43,7 +43,7 @@ Acesso em: inserir data de acesso.
 
 Biagio Junior, N 2026, *SAP Operational Intelligence: A framework for
 cutover governance, stabilization telemetry, and executive visibility in
-SAP S/4HANA transformation programs*, GitHub, viewed inserir data de acesso,
+SAP S/4HANA transformation programs*, GitHub, viewed Insert access date,
 <https://github.com/nelson-biagiojr/sap-cutover-framework>.
 
 *In-text citation:* (Biagio Junior 2026)
@@ -56,7 +56,7 @@ Nelson Biagio Junior, *SAP Operational Intelligence: A Framework for
 Cutover Governance, Stabilization Telemetry, and Executive Visibility
 in SAP S/4HANA Transformation Programs* (GitHub 2026)
 <https://github.com/nelson-biagiojr/sap-cutover-framework>
-accessed inserir data de acesso.
+accessed Insert access date.
 
 *Subsequent footnote (short form):* Biagio Junior, *SAP Operational Intelligence* (2026).
 
@@ -114,14 +114,14 @@ GitHub. https://nelson-biagiojr.github.io/sap-operational-intelligence/operation
 BIAGIO JUNIOR, Nelson. Telemetry Model. In: ______. **SAP Operational
 Intelligence**. São Paulo, 2026. Disponível em:
 https://nelson-biagiojr.github.io/sap-operational-intelligence/operational-intelligence/telemetry-model.html.
-Acesso em: inserir data de acesso.
+Acesso em: Insert access date.
 
 ---
 
 **Harvard**
 
 Biagio Junior, N 2026, 'Telemetry Model', in *SAP Operational Intelligence*,
-GitHub, viewed inserir data de acesso,
+GitHub, viewed Insert access date,
 <https://nelson-biagiojr.github.io/sap-operational-intelligence/operational-intelligence/telemetry-model.html>.
 
 ---
@@ -131,7 +131,7 @@ GitHub, viewed inserir data de acesso,
 Nelson Biagio Junior, 'Telemetry Model' in *SAP Operational Intelligence*
 (GitHub 2026)
 <https://nelson-biagiojr.github.io/sap-operational-intelligence/operational-intelligence/telemetry-model.html>
-accessed inserir data de acesso.
+accessed Insert access date.
 
 ---
 
