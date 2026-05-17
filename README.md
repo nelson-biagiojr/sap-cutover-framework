@@ -76,6 +76,7 @@ Most organizations simply do not structure these signals into operational intell
 - [Go-Live Maturity Model](#go-live-maturity-model)
 - [Operational Intelligence Layer](#operational-intelligence-layer)
 - [Field Notes](#field-notes)
+- [Citation](#citation)
 - [Repository Structure](#repository-structure)
 - [Strategic Direction](#strategic-direction)
 - [Why This Repository Exists](#why-this-repository-exists)
@@ -175,6 +176,43 @@ The objective is to document the hidden operational dynamics that traditional pr
 ## Documents
 
 - [Field Notes](./FIELD_NOTES.md)
+
+---
+
+# Citation
+
+<p align="center">
+  <img src="assets/citation-framework-hero.png" width="100%">
+</p>
+
+<p align="center">
+  <em>
+    Citation and academic reference formats for the SAP Operational Intelligence framework, including APA, ABNT, Harvard, Oxford, Chicago, and ISO 690 standards.
+  </em>
+</p>
+
+The SAP Operational Intelligence framework can be cited using multiple academic and technical documentation standards.
+
+This repository includes structured citation references designed for:
+- academic research
+- operational governance studies
+- transformation methodology references
+- SAP operational intelligence discussions
+- executive governance frameworks.
+
+## Supported Formats
+
+- APA
+- ABNT
+- Harvard
+- Oxford
+- Chicago
+- ISO 690
+- BibTeX
+
+## Documents
+
+- [Citation Guide](./CITATION.md)
 
 ---
 
