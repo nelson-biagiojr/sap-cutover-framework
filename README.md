@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/executive-command-center-banner.png" width="100%">
+  <img src="assets/sap-cutover-framework-map.png" width="100%">
 </p>
 
 > Most SAP transformation programs are heavily monitored during go-live.
