@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is inspired by Keep a Changelog and follows Semantic Versioning principles.
 
 ---
+# Repository Evolution
+
+<p align="center">
+  <img src="assets/release-timeline-v2.png" width="100%">
+</p>
+
+<p align="center">
+  <em>
+    Evolution timeline of the SAP Operational Intelligence platform, showing the strategic expansion from traditional SAP cutover governance into telemetry-driven operational intelligence, stabilization observability, executive visibility, and hypercare intelligence capabilities.
+  </em>
+</p>
+---
 
 # [2.0.0] - 2026-05-17
 
