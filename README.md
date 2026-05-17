@@ -1,48 +1,40 @@
+<p align="center">
+
+![GitHub release](https://img.shields.io/github/v/release/nelson-biagiojr/sap-operational-intelligence?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/nelson-biagiojr/sap-operational-intelligence?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/nelson-biagiojr/sap-operational-intelligence?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/nelson-biagiojr/sap-operational-intelligence?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/nelson-biagiojr/sap-operational-intelligence?style=for-the-badge)
+
+</p>
+
 # SAP Operational Intelligence
 
 <p align="center">
-
-![Release](https://img.shields.io/github/v/release/nelson-biagiojr/sap-cutover-framework)
-![License](https://img.shields.io/github/license/nelson-biagiojr/sap-cutover-framework?style=flat-square)
-![Stars](https://img.shields.io/github/stars/nelson-biagiojr/sap-cutover-framework)
-![Last Commit](https://img.shields.io/github/last-commit/nelson-biagiojr/sap-cutover-framework)
-![Repo Size](https://img.shields.io/github/repo-size/nelson-biagiojr/sap-cutover-framework)
-![Issues](https://img.shields.io/github/issues/nelson-biagiojr/sap-cutover-framework)
-
+  <img src="assets/sap-operational-intelligence-map.png" width="100%">
 </p>
 
-<p align="center">
-  <img src="assets/sap-cutover-framework-map.png" width="100%">
-</p>
-
-> Most SAP transformation programs are heavily monitored during go-live.
->
-> Yet most organizations still operate with very limited visibility into stabilization dynamics.
->
-> This repository explores a different approach:
->
-> Operational Intelligence for SAP Transformations.
+> Turning post-deployment noise into structured operational visibility.
 
 ---
 
 # Executive Summary
 
-This repository is a practical and strategic framework for managing high-criticality SAP transformation programs.
+SAP Operational Intelligence is a public framework focused on operational visibility, stabilization observability, telemetry-driven governance, and hypercare intelligence for large-scale SAP transformations.
 
-It combines:
+The repository combines:
+- operational governance
+- telemetry concepts
+- stabilization intelligence
+- executive visibility
+- hypercare operational models
+- transformation observability
+- escalation governance
+- operational convergence frameworks.
 
-- SAP cutover governance
-- Hypercare operational models
-- Stabilization intelligence
-- Executive operational visibility
-- Operational telemetry concepts
-- Go-live maturity structures
-- Command center governance
-- Cross-functional orchestration models
+The goal is not only to improve deployment execution.
 
-The objective is not only to improve deployment execution.
-
-The objective is to improve operational observability, stabilization governance, and executive decision-making during transformation programs.
+The goal is to improve operational understanding during the unstable periods that follow enterprise transformations.
 
 ---
 
@@ -50,17 +42,31 @@ The objective is to improve operational observability, stabilization governance,
 
 ## Stabilization is observable.
 
-Operational degradation leaves signals.
+Large-scale SAP transformations continuously generate operational signals.
 
 Escalation behavior leaves signals.
 
 Recovery patterns leave signals.
 
+Operational degradation leaves signals.
+
 Business disruption leaves signals.
 
-Most organizations simply do not structure these signals into operational telemetry models.
+Most organizations simply do not structure these signals into operational intelligence systems.
 
-This repository explores how to transform operational noise into operational intelligence.
+---
+
+# Repository Evolution
+
+<p align="center">
+  <img src="assets/release-timeline-v2.png" width="100%">
+</p>
+
+<p align="center">
+  <em>
+    Evolution timeline of the SAP Operational Intelligence platform, showing the strategic expansion from traditional SAP cutover governance into telemetry-driven operational intelligence, stabilization observability, executive visibility, and hypercare intelligence capabilities.
+  </em>
+</p>
 
 ---
 
@@ -69,6 +75,7 @@ This repository explores how to transform operational noise into operational int
 - [Executive Profile](#executive-profile)
 - [Go-Live Maturity Model](#go-live-maturity-model)
 - [Operational Intelligence Layer](#operational-intelligence-layer)
+- [Field Notes](#field-notes)
 - [Repository Structure](#repository-structure)
 - [Strategic Direction](#strategic-direction)
 - [Why This Repository Exists](#why-this-repository-exists)
@@ -129,6 +136,48 @@ This capability expands traditional cutover governance into measurable operation
 
 ---
 
+# Field Notes
+
+<p align="center">
+  <img src="assets/field-notes-war-room-observations.png" width="100%">
+</p>
+
+<p align="center">
+  <em>
+    Observations from SAP S/4HANA war rooms, stabilization command centers, escalation governance, and operational convergence during large-scale transformation programs.
+  </em>
+</p>
+
+The Field Notes section captures operational observations gathered during real SAP transformation programs across global manufacturing, commodities trading, financial services, and regulated industries.
+
+These are not theoretical governance models.
+
+They are recurring operational patterns observed during:
+- cutover execution
+- stabilization windows
+- hypercare operations
+- escalation management
+- executive command center governance.
+
+The objective is to document the hidden operational dynamics that traditional project reporting structures rarely capture.
+
+## Key Topics
+
+- War room governance
+- Escalation behavior
+- Hypercare operational patterns
+- Stabilization convergence
+- Executive visibility gaps
+- Decision velocity
+- Governance failure signals
+- Operational noise management
+
+## Documents
+
+- [Field Notes](./FIELD_NOTES.md)
+
+---
+
 # Repository Structure
 
 ```text
@@ -158,6 +207,7 @@ sap-operational-intelligence/
 │   ├── operational-kpis.md
 │   └── README.md
 │
+├── FIELD_NOTES.md
 ├── ai-for-cutover.md
 ├── common-cutover-failures.md
 ├── cutover-checklist.md
@@ -177,40 +227,36 @@ sap-operational-intelligence/
 
 # Strategic Direction
 
-The long-term vision of this repository is to evolve SAP transformation governance beyond traditional project execution models.
+The long-term vision of this repository is to evolve SAP transformation governance beyond traditional deployment execution models.
 
-The framework explores how telemetry, operational intelligence, stabilization observability, and executive visibility can transform post-go-live operations into measurable operational systems.
+The framework explores how telemetry, operational intelligence, stabilization observability, executive visibility, and governance systems can transform post-go-live operations into measurable operational capabilities.
 
-Future releases will expand:
-
-- Operational telemetry models
-- Executive command center concepts
-- Stabilization forecasting
-- Hypercare intelligence
-- SAP operational resilience models
-- AI-assisted operational governance
-- Recovery intelligence frameworks
-- Transformation observability architectures
+Future releases will continue expanding:
+- stabilization telemetry
+- hypercare intelligence
+- executive observability
+- AI-assisted governance
+- operational convergence
+- recovery intelligence
+- transformation resilience frameworks.
 
 ---
 
 # Why This Repository Exists
 
 Most transformation repositories focus exclusively on:
-
-- Project management
-- Deployment activities
-- Technical execution
-- Cutover checklists
+- deployment activities
+- project governance
+- technical execution
+- cutover checklists.
 
 Very few explore:
-
-- Stabilization dynamics
-- Executive operational visibility
-- Escalation pressure
-- Operational convergence
-- Telemetry-driven governance
-- Hypercare intelligence
+- stabilization dynamics
+- escalation governance
+- operational convergence
+- telemetry-driven visibility
+- hypercare intelligence
+- executive operational awareness.
 
 This repository attempts to bridge that gap.
 
@@ -219,15 +265,14 @@ This repository attempts to bridge that gap.
 # Target Audience
 
 This repository was designed for:
-
 - SAP Program Managers
 - Cutover Managers
 - PMO Leaders
 - Transformation Executives
 - Hypercare Leaders
-- Operational Governance Teams
 - SAP Delivery Directors
-- Transformation Architects
+- Governance Teams
+- Operational Architects.
 
 ---
 
@@ -243,13 +288,13 @@ Operational intelligence changes that dynamic.
 
 # Contributing
 
-Contributions, discussions, operational insights, and governance ideas are welcome.
+Contributions, discussions, governance ideas, and operational insights are welcome.
 
 Please review:
 
 - [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-before opening pull requests or submitting changes.
+before submitting pull requests or changes.
 
 ---
 
@@ -265,6 +310,6 @@ Most organizations already generate operational telemetry.
 
 They simply do not structure it.
 
-The challenge is not collecting more data.
+The challenge is not collecting more operational data.
 
 The challenge is transforming operational noise into operational intelligence.
