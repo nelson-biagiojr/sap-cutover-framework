@@ -152,7 +152,7 @@ Future releases will continue expanding:
 
 ---
 
-# [1.1.0] - 2026-05-15
+# [1.1.0] - 2026-05-09
 
 ## Added
 
@@ -174,7 +174,7 @@ Future releases will continue expanding:
 
 ---
 
-# [1.0.0] - 2026-05-14
+# [1.0.0] - 2026-05-02
 
 ## Initial Release
 
